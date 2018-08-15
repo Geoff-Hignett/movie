@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1,
+h2,
+footer {
+  text-align: center;
+    border: 6px dotted red;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: 0 3px 0 gray;
+} 
+
+h1,
+h2,
+a,
+footer {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font: 18px 'Courier New', monospace;
+  margin: 0 auto;
+  width: 320px;
+  background-image: url(/images/textures/light2a.png);
+  background-color: teal;
+}
+
+img {
+  border: 6px dotted red;
+}
+
+ul {
+  list-style-image: url(/images/icons/icon1.png);
+}
+
+a:hover {
+  color: green;
+}
